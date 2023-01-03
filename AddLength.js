@@ -25,11 +25,9 @@
 
 function addLength(str) {
     //start-here
-    let singleWords = str.match(/\b(\w+)\b/g)
-
-    const wordsLength = singleWords.map(word => word + " " + word.length);
-
-    return wordsLength; 
+    let arr = str.split(" ");
+    const wl = arr.map(word => word + " " + word.length);
+    return wl;
 
     }
 console.log(addLength("you will win"))    
