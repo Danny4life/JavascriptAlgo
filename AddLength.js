@@ -25,6 +25,7 @@
 
 function addLength(str) {
     //start-here
+    // with map array method, you dont need to use push method to get array
     let arr = str.split(" ");
     const wl = arr.map(word => word + " " + word.length);
     return wl;
