@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background: #ccc;
+  }
+  h1 {
+    padding: 20px;
+  font-size: 1.3rem;
+  margin: 0;
+  background: white;
+  resize: horizontal;
+  width: 200px;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
