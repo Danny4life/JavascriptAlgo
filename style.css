@@ -18,3 +18,39 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+textarea:focus{
+	background-color: pink;
+}
+
+h1:focus{
+	color: red;
+}
+
+a { 
+	position: relative;
+  }
+  a:active {
+	left: 2px;
+  }
+
+  button {
+	position: relative;
+  }
+
+  button:active{
+	top: 3px;
+  }
+
+  p::first-line{
+	font-size: 2rem;
+	color: red;
+  }
+
+  .emojify::before {
+    content: '😎 🥸 🤓';
+}
+
+  .emojify::after {
+    content: '🤓 🥸 😎';
+}
