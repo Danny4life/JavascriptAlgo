@@ -1,0 +1,86 @@
+// In javascript, Number is one of basic data types. It can be positive:
+//  1,2,3, negative:-1,-100 , integer:123,456, decimal:3.1415926,-8.88 etc..
+
+// Numbers can use operators such as + - * / %
+
+// Task
+// I've written five function equal1,equal2,equal3,equal4,equal5, defines six global variables 
+// v1 v2 v3 v4 v5 v6, every function has two local variables a,b, please set the appropriate 
+// value for the two variables(select from v1--v6), making these function return value equal to 100. 
+// the function equal1 is completed, please refer to this example to complete the following functions.
+
+// When you have finished the work, click "Run Tests" to see if your code is working properly.
+
+// In the end, click "Submit" to submit your code pass this kata.
+
+
+// escribe("Tests", () => {
+//   it("test", () => {
+//     assert.strictEqual(equal1(), 100, "value of a+b is not equal to 100");
+//     assert.strictEqual(equal2(), 100, "value of a-b is not equal to 100");
+//     assert.strictEqual(equal3(), 100, "value of a*b is not equal to 100");
+//     assert.strictEqual(equal4(), 100, "value of a/b is not equal to 100");
+//     assert.strictEqual(equal5(), 100, "value of a%b is not equal to 100");
+//   });
+// });
+
+
+//STEPS
+//add two variables to equal 1000
+
+
+let v1 = 50,
+    v2 = 100,
+    v3 = 150,
+    v4 = 200,
+    v5 = 2,
+    v6 = 250;
+
+function equal1(a,b){
+   a = v1,   
+      b = v1;   
+  return a + b;
+}
+
+console.log(equal1(v1, v1))
+
+//Please refer to the example above to complete the following functions
+function equal2(a,b){
+   a =  v6, //set number value to a
+      b =  v3; //set number value to b
+  return a - b;
+}
+console.log(equal1(v6,v3))
+
+function equal3(){
+  let a =  v1; //set number value to a
+      b =  v5; //set number value to b
+  return a * b;
+}
+console.log(equal1(v1, v5))
+
+function equal4(){
+  let a =  v4, //set number value to a
+      b =  v5; //set number value to b
+  return a / b;
+}
+console.log(equal1(v4, v5))
+
+function equal5(a, b){
+   a =  v4, //set number value to a
+      b = v5 ; //set number value to b
+  return a % b;
+}
+console.log(equal1(v6, v3))
+
+
+
+
+// let v1 = 50,
+//     v2 = 100,
+//     v3 = 150,
+//     v4 = 200,
+//     v5 = 2,
+//     v6 = 250;
+
+console.log(250 % 150)
