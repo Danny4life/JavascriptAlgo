@@ -25,3 +25,22 @@ function Book(title, author, numOfPages, isBookRead){
 const reader = new Book("hobbit", "tolkien", "254", "not read yet");
 
 console.log(reader.bookInfo());
+
+
+let a = 17;
+
+const func = (x) => {
+     a = x;
+}
+
+func(99);
+
+console.log(a);
+
+const myName = () => {
+    let name = "todd";
+
+    console.log(name);
+}
+
+console.log(myName());
