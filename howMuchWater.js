@@ -37,6 +37,15 @@
 //-- get the amount of cloths to wash
 //-- get the total amount of water needed to wash the cloths
 
+// write a pseudocode solution for taking in two integer values and your solution should output the sum
+//and the products of those numbers
+
+//STEPS
+// let int1 = 10
+// let int2 = 20;
+// let sum = int1 + int2
+// let pro = int1 * int2;
+
 
 
 function howMuchWater(water, load, clothes){
